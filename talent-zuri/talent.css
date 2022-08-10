@@ -85,3 +85,121 @@ header {
 .hero__image img {
     width: 70% !important;
 }
+
+.talents__list > div {
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.talents {
+    cursor: pointer;
+    background: #fff!important;
+    border-radius: 8px!important;
+    box-shadow: 0 8px 30px hsla(0,0%,48%,.16)!important;
+    color: #787878!important;
+    font-family: Graphik!important;
+    font-size: 20px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: 33px!important;
+    padding: 11px!important;
+    text-align: center;
+    transition: .3s ease!important;
+}
+
+.small {
+    font-size: 17px !important;
+}
+
+.talents__heading h2 {
+    color: #161617!important;
+    font-family: Graphik!important;
+    font-size: 40px!important;
+    font-style: normal!important;
+    font-weight: 800!important;
+    line-height: 49px!important;
+    margin: 30px 0;
+}
+
+.talents__heading {
+    max-width: 480px;
+}
+
+.talents__heading span {
+    color: rgb(231, 51, 43);
+}
+
+.our__talent {
+    background-color: rgb(255, 248, 229);
+    padding-bottom: 80px;
+}
+
+.our__talent .container {
+    margin: auto!important;
+    max-width: 1440px!important;
+    width: 85%!important;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0 0 16px 0;
+    color: #787878!important;
+    flex-direction: column;
+    height: auto!important;
+    padding: 45px 40px;
+    text-align: center;
+}
+
+.grid__image {
+    margin: 25px 0;
+}
+
+.grid__buttons {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(22, 22, 23);
+    padding: 40px 0;
+}
+
+.footer-row {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer__row-bottom {
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__socials i {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(143, 134, 134);
+    margin-right: 10px;
+}
